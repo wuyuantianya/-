@@ -1,0 +1,29 @@
+{
+  "name": "mytest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x npm run serve",
+    "serve": "node --inspect index"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "koa": "^2.14.1",
+    "log4js": "^6.2.0",
+    "md5": "^2.3.0",
+    "mime": "^3.0.0",
+    "mockjs": "^1.1.0",
+    "moment": "^2.24.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5",
+    "svg-captcha": "^1.4.0",
+    "validate.js": "^0.13.1",
+    "validator": "^13.7.0"
+  }
+}
